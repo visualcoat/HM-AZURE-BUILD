@@ -1,0 +1,2 @@
+New-AzureRMResourceGroup -Name "CJCC-ARM-GW01" -Location "Central US" -Tag @{Name="CJCC-ARM-RG01";Value="TEST"}
+New-AzureRMResourceGroupDeployment -Name "CJCC-ARM-DEPLOY-GW01" -ResourceGroupName "CJCC-ARM-GW01" -TemplateFile "C:\Temp\HM-AZURE-GW01\azuredeploy.json"
