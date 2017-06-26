@@ -1,0 +1,1 @@
+az group deployment create --resource-group jason  --template-uri https://raw.githubusercontent.com/visualcoat/HM-AZURE-GW01/develop/azuredeploy.json?token=Ab7dzsTpDPfpDUsd-6IetyJVsjX1mAYgks5ZWqg3wA%3D%3D
