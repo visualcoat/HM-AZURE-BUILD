@@ -1,1 +1,3 @@
+azure group create -n "alison" -l "Central US"
+
 az group deployment create --resource-group alison --parameters "{\"adminUsername\": {\"value\": \"alison\"},\"adminPassword\": {\"value\": \"122130869@qq\"},\"dnsLabelPrefix\": {\"value\": \"alisontest321\"}}" --template-uri https://raw.githubusercontent.com/visualcoat/HM-AZURE-VM01/develop/azuredeploy.json?token=Ab7dznIjnht0dFRWORpQV5qNp6aH0WNgks5ZWqiewA%3D%3D
